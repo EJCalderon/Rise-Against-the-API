@@ -45,6 +45,7 @@ const myQuestions = [
         },
         correctAnswer: "a"
     },
+    {
         question: "Where was Rise Against formed?",
         answer: {
             a: "Chicago",
@@ -79,4 +80,4 @@ const myQuestions = [
 buildQuiz();
 
 //when submitting, show score
-submutButton.addEventListener('clcik', showResults);
+submitButton.addEventListener('click', showResults);
